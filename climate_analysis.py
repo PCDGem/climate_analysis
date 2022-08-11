@@ -24,6 +24,7 @@ for line in climate_data:
         if fahr != -9999:
             celsius = temp_conversion.fahr_to_celsius(fahr)
             kelvin = temp_conversion.fahr_to_kelvin(fahr)
+            print(str(celsius)+", "+str(kelvin))
 
 # TODO(js-robinson): Add call to process rainfall
-            print(str(celsius)+", "+str(kelvin))
+            
